@@ -28,7 +28,8 @@ The sum of nums[0] and nums[1] is 2 + 7 = 9, which equals the target. Therefore,
 
 class Solution {
 public:
-	vector<int> twoSum(vector<int> nums, int target)
+	// Решение 1 (0-2 mc - LeetCode)
+	vector<int> twoSum_1(vector<int> nums, int target)
 	{
 		// Создаём хеш-таблицу (мапу)
 		unordered_map<int, int> numMap{};
